@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book a Service</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Book a Home Repair Service</h1>
+
+  <form>
+    <label>Your Name:</label><br>
+    <input type="text" placeholder="Enter your name" required><br><br>
+
+    <label>Your Address:</label><br>
+    <textarea placeholder="Enter your address" required></textarea><br><br>
+
+    <label>Choose Service:</label><br>
+    <select required>
+      <option value="">--Select--</option>
+      <option value="plumber">Plumber</option>
+      <option value="electrician">Electrician</option>
+      <option value="carpenter">Carpenter</option>
+    </select><br><br>
+
+    <label>Date & Time:</label><br>
+    <input type="datetime-local" required><br><br>
+
+    <button type="submit">Book Now</button>
+  </form>
+
+</body>
+</html>

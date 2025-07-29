@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Services - HomeFix</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Available Home Services</h1>
+
+  <ul>
+    <li>🔧 Plumber - Tap & Pipe Repair</li>
+    <li>💡 Electrician - Switch, Fan, Wiring</li>
+    <li>🛠 Carpenter - Furniture Fixing</li>
+    <li>🧹 Cleaning - Home & Bathroom Cleaning</li>
+    <li>🧰 AC Technician - Cooling Services</li>
+  </ul>
+
+  <!-- 👇 Add this form here -->
+  <h2>Book a Service</h2>
+  <form action="thankyou.html" method="get">
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <label for="service">Select Service:</label><br>
+    <select id="service" name="service">
+      <option value="Plumber">Plumber</option>
+      <option value="Electrician">Electrician</option>
+      <option value="Carpenter">Carpenter</option>
+      <option value="Cleaning">Cleaning</option>
+      <option value="AC Technician">AC Technician</option>
+    </select><br><br>
+
+    <button type="submit">Book Now</button>
+  </form>
+
+  <br>
+  <a href="index.html">Back to Home</a>
+</body>
+</html>
